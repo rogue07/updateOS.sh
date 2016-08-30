@@ -52,5 +52,5 @@ else
 	dnf update -y | tee -a $LOG
 fi
 
-curl http://textbelt.com/text -d "number=3523969626" -d "message=Sir, $HOSTNAME has been updated." | tee -a $LOG
+curl http://textbelt.com/text -d "number=1234567890" -d "message=Sir, $HOSTNAME has been updated." | tee -a $LOG
 
